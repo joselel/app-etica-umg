@@ -21,7 +21,8 @@
     <!-- contenido con q -->
          <!-- Paso 2: Preguntas -->
     <div class="bg-white shadow-md p-6 rounded-xl max-w-2xl w-full space-y-4">
-      <h2 class="text-xl font-semibold text-gray-500 text-center">{{ q.question }}</h2>
+      <h2 class="text-xl font-bold text-gray-500 text-center border-b-1 border-gray-100 pb-2">Pregunta No. {{ currentIndex() + 1 }}</h2>
+      <p class="text-lg font-semibold text-gray-500 text-center">{{ q.question }}</p>
 
       @if (q.image) {
         <img [src]="'/images/' + q.image" alt="imagen" class="rounded-xl max-h-64 w-full object-cover" />
@@ -31,7 +32,7 @@
         @for (resp of q.responses; track resp) {
           <li (click)="selectAnswer(resp)"
             class="border border-gray-200 bg-gray-200 p-3 rounded-md hover:bg-gray-300 cursor-pointer transition text-gray-500">
-            {{ resp.response }}
+            <b>{{ $index + 1 }}.</b> {{ resp.response }}
           </li>
         }
       </ul>
@@ -66,15 +67,12 @@
       </div>
       <p class="text-gray-700">Tu puntaje: <strong>{{ score() }}/100</strong></p>
 
-      <!-- <div class="mt-4 text-left space-y-2"> -->
       <div class="mt-4 text-left space-y-2 max-h-[60vh] overflow-y-auto pr-2">
         @for (a of answers(); track a) {
           <div class="p-3 rounded-md border border-gray-200 bg-gray-100 text-gray-500">
-            <p class="text-sm font-medium">{{ a.question }}</p>
-            <p
-              class="text-sm"
-              [ngClass]="a.correct ? 'text-green-600' : 'text-red-600'"
-            >
+            <p class="text-sm font-medium"> {{ $index + 1 }} - {{ a.question }}</p>
+            <p class="text-sm"
+               [ngClass]="a.correct ? 'text-green-600' : 'text-red-600'">
               {{ a.selected }} → {{ a.correct ? 'Correcto' : 'Incorrecto' }}
             </p>
           </div>
@@ -83,8 +81,7 @@
 
       <button
         (click)="reset()"
-        class="mt-6 px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700"
-      >
+        class="mt-6 px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700">
         Volver a empezar
       </button>
     </div>
