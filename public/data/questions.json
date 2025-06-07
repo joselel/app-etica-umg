@@ -1,0 +1,102 @@
+[
+  {
+    "question": "Escenario 1: Un empleado descubre que un compañero ha compartido su contraseña con un proveedor externo.",
+    "image": "01.jpeg",
+    "responses": [
+      { "response": "Ignorar la situación para evitar conflictos.", "correct": false },
+      { "response": "Enfrentar al compañero directamente sin informar a nadie.", "correct": false },
+      { "response": "Informar al jefe del área de TI y sugerir una sesión de concienciación.", "correct": true },
+      { "response": "Publicar en redes internas como una advertencia para todos.", "correct": false }
+    ]
+  },
+  {
+    "question": "Escenario 2: Durante una auditoría, el analista descubre que el jefe de área accedió a archivos confidenciales sin justificación.",
+    "image": "02.jpg",
+    "responses": [
+      { "response": "Ocultar el hallazgo para proteger su relación laboral.", "correct": false },
+      { "response": "Discutirlo con el jefe fuera del reporte oficial.", "correct": false },
+      { "response": "Incluirlo en el informe formal y notificar al Comité de Ética.", "correct": true },
+      { "response": "Compartir el hallazgo con otros compañeros como rumor.", "correct": false }
+    ]
+  },
+  {
+    "question": "Escenario 3: Un miembro del equipo de ciberseguridad sugiere hacer pruebas de ingeniería social sin consentimiento.",
+    "image": "03.jpg",
+    "responses": [
+      { "response": "Aceptar para demostrar la vulnerabilidad.", "correct": false },
+      { "response": "Negarse y reportar la sugerencia al jefe de ciberseguridad.", "correct": true },
+      { "response": "Hacer las pruebas sin informar al personal objetivo.", "correct": false },
+      { "response": "Compartir la idea en foros de hackers para validarla.", "correct": false }
+    ]
+  },
+  {
+    "question": "Escenario 4: Una empresa ofrece dinero a cambio de información sobre brechas de seguridad de un competidor.",
+    "image": "04.jpg",
+    "responses": [
+      { "response": "Aceptar y compartir la información.", "correct": false },
+      { "response": "Negarse y denunciar el hecho al órgano regulador.", "correct": true },
+      { "response": "Ignorar la oferta sin hacer nada.", "correct": false },
+      { "response": "Informar a tu jefe solo si puede usarse para ventaja competitiva.", "correct": false }
+    ]
+  },
+  {
+    "question": "Escenario 5: Un usuario revela en redes sociales información personal de clientes sin intención maliciosa.",
+    "image": "05.jpeg",
+    "responses": [
+      { "response": "Regañarlo en público.", "correct": false },
+      { "response": "Ignorarlo si no hay quejas.", "correct": false },
+      { "response": "Reportarlo a recursos humanos y sugerir una capacitación de privacidad.", "correct": true },
+      { "response": "Compartirlo como ejemplo de malas prácticas en una charla interna.", "correct": false }
+    ]
+  },
+  {
+    "question": "Escenario 6: Un nuevo sistema registra comportamientos anómalos de empleados, pero no se ha informado de esta vigilancia.",
+    "image": "06.jpg",
+    "responses": [
+      { "response": "Continuar la vigilancia sin decir nada.", "correct": false },
+      { "response": "Informar a la dirección y proponer una política de transparencia.", "correct": true },
+      { "response": "Filtrar la noticia a la prensa como denuncia.", "correct": false },
+      { "response": "Desactivar el sistema sin autorización.", "correct": false }
+    ]
+  },
+  {
+    "question": "Escenario 7: Durante una capacitación de ciberseguridad, un participante hace bromas ofensivas sobre el tema.",
+    "image": "07.jpg",
+    "responses": [
+      { "response": "Reírse para no quedar mal con el grupo.", "correct": false },
+      { "response": "Ignorar los comentarios.", "correct": false },
+      { "response": "Hablar en privado con la persona y reportarlo al facilitador.", "correct": true },
+      { "response": "Exponer al participante delante de todos.", "correct": false }
+    ]
+  },
+  {
+    "question": "Escenario 8: Un empleado con acceso privilegiado se queja de que las políticas de seguridad son demasiado estrictas.",
+    "image": "08.jpeg",
+    "responses": [
+      { "response": "Ofrecerle excepciones por su nivel jerárquico.", "correct": false },
+      { "response": "Escuchar sus argumentos y ofrecer una sesión de concienciación personalizada.", "correct": true },
+      { "response": "Ignorar sus quejas.", "correct": false },
+      { "response": "Sugerirle que hable con el director de TI directamente.", "correct": false }
+    ]
+  },
+  {
+    "question": "Escenario 9: Un colega pide ayuda para eludir una política de seguridad que le resulta molesta.",
+    "image": "09.jpg",
+    "responses": [
+      { "response": "Ayudarlo sin decir nada.", "correct": false },
+      { "response": "Rechazar la solicitud y explicar las razones éticas y técnicas.", "correct": true },
+      { "response": "Aconsejarle que hable con alguien más flexible.", "correct": false },
+      { "response": "Pedir algo a cambio de la ayuda.", "correct": false }
+    ]
+  },
+  {
+    "question": "Escenario 10: Un excompañero de trabajo pide acceso a un sistema para “consultar unos datos antiguos”.",
+    "image": "10.jpg",
+    "responses": [
+      { "response": "Compartirle temporalmente tus credenciales.", "correct": false },
+      { "response": "Consultar con el área de TI si existe una vía legal de acceso.", "correct": true },
+      { "response": "Decirle que ya no tienes acceso aunque sea mentira.", "correct": false },
+      { "response": "Ignorar su solicitud completamente.", "correct": false }
+    ]
+  }
+]
