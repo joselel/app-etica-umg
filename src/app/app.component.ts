@@ -22,7 +22,6 @@ export class AppComponent {
   score = signal(0);
   answers = signal<{ question: string; selected: string; correct: boolean }[]>([]);
 
-  // readonly currentQuestion = computed(() => this.questions()[this.currentIndex()] ?? null);
   readonly currentQuestion = computed(() => this.questions()[this.currentIndex()] ?? null);
 
 constructor() {
@@ -84,33 +83,4 @@ startQuiz() {
   private shuffleArray<T>(array: T[]): T[] {
     return [...array].sort(() => Math.random() - 0.5);
   }
-//  private questionsService = inject(CommonsService);
-//   questions = signal<Question[]>([]);
-//   currentIndex = signal(0);
-
-//   readonly currentQuestion = () => this.questions()[this.currentIndex()] ?? null;
-
-//   constructor() {
-//     effect(() => {
-//       const loaded = this.questionsService.questions();
-//       if (loaded.length > 0 && this.questions().length === 0) {
-//         const shuffled = this.shuffleArray(loaded).map(q => ({
-//           ...q,
-//           responses: this.shuffleArray(q.responses)
-//         }));
-//         this.questions.set(shuffled);
-//       }
-//     });
-//   }
-
-//   nextQuestion() {
-//     const next = this.currentIndex() + 1;
-//     if (next < this.questions().length) {
-//       this.currentIndex.set(next);
-//     }
-//   }
-
-//   shuffleArray<T>(array: T[]): T[] {
-//     return [...array].sort(() => Math.random() - 0.5);
-//   }
 }
