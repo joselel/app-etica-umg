@@ -1,0 +1,119 @@
+Escenario 1:
+Un empleado descubre que un compañero ha compartido su contraseña con un proveedor externo.
+
+Tomas de decisión:
+
+Ignorar la situación para evitar conflictos.
+
+Enfrentar al compañero directamente sin informar a nadie.
+
+Informar al jefe del área de TI y sugerir una sesión de concienciación. /correcta
+
+Publicar en redes internas como una advertencia para todos.
+
+Escenario 2:
+Durante una auditoría, el analista descubre que el jefe de área accedió a archivos confidenciales sin justificación.
+Tomas de decisión:
+
+Ocultar el hallazgo para proteger su relación laboral.
+
+Discutirlo con el jefe fuera del reporte oficial.
+
+Incluirlo en el informe formal y notificar al Comité de Ética. /correcta
+Compartir el hallazgo con otros compañeros como rumor.
+
+Escenario 3:
+Un miembro del equipo de ciberseguridad sugiere hacer pruebas de ingeniería social sin consentimiento.
+Tomas de decisión:
+
+Aceptar para demostrar la vulnerabilidad.
+
+Negarse y reportar la sugerencia al jefe de ciberseguridad. /correcta
+
+Hacer las pruebas sin informar al personal objetivo.
+
+Compartir la idea en foros de hackers para validarla.
+
+Escenario 4:
+Una empresa ofrece dinero a cambio de información sobre brechas de seguridad de un competidor.
+Tomas de decisión:
+
+Aceptar y compartir la información.
+
+Negarse y denunciar el hecho al órgano regulador. /correcta
+
+Ignorar la oferta sin hacer nada.
+
+Informar a tu jefe solo si puede usarse para ventaja competitiva.
+
+Escenario 5:
+Un usuario revela en redes sociales información personal de clientes sin intención maliciosa.
+Tomas de decisión:
+
+Regañarlo en público.
+
+Ignorarlo si no hay quejas.
+
+Reportarlo a recursos humanos y sugerir una capacitación de privacidad. /correcta
+
+Compartirlo como ejemplo de malas prácticas en una charla interna.
+
+Escenario 6:
+Un nuevo sistema registra comportamientos anómalos de empleados, pero no se ha informado de esta vigilancia.
+Tomas de decisión:
+
+Continuar la vigilancia sin decir nada.
+
+Informar a la dirección y proponer una política de transparencia. /correcta
+
+Filtrar la noticia a la prensa como denuncia.
+
+Desactivar el sistema sin autorización.
+
+Escenario 7:
+Durante una capacitación de ciberseguridad, un participante hace bromas ofensivas sobre el tema.
+Tomas de decisión:
+
+Reírse para no quedar mal con el grupo.
+
+Ignorar los comentarios.
+
+Hablar en privado con la persona y reportarlo al facilitador. /correcta
+
+Exponer al participante delante de todos.
+
+Escenario 8:
+Un empleado con acceso privilegiado se queja de que las políticas de seguridad son demasiado estrictas.
+Tomas de decisión:
+
+Ofrecerle excepciones por su nivel jerárquico.
+
+Escuchar sus argumentos y ofrecer una sesión de concienciación personalizada. /correcta
+
+Ignorar sus quejas.
+
+Sugerirle que hable con el director de TI directamente.
+
+Escenario 9:
+Un colega pide ayuda para eludir una política de seguridad que le resulta molesta.
+Tomas de decisión:
+
+Ayudarlo sin decir nada.
+
+Rechazar la solicitud y explicar las razones éticas y técnicas. /correcta
+
+Aconsejarle que hable con alguien más flexible.
+
+Pedir algo a cambio de la ayuda.
+
+Escenario 10:
+Un excompañero de trabajo pide acceso a un sistema para “consultar unos datos antiguos”.
+Tomas de decisión:
+
+Compartirle temporalmente tus credenciales.
+
+Consultar con el área de TI si existe una vía legal de acceso. /correcta
+
+Decirle que ya no tienes acceso aunque sea mentira.
+
+Ignorar su solicitud completamente.
